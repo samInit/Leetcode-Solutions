@@ -13,7 +13,7 @@ class Solution {
     roman_vals['D'] = 500;
     roman_vals['M'] = 1000;
 
-    for (int i = 0; i < len - 1; ++i) {
+    for (int i = 0; i < len - 1; i++) {
 
       if (roman_vals[s.charAt(i)] < roman_vals[s.charAt(i + 1)])
         final_val -= roman_vals[s.charAt(i)];
